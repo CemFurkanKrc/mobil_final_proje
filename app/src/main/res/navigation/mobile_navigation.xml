@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_addphoto">
+
+    <fragment
+        android:id="@+id/nav_addphoto"
+        android:name="com.example.mobil_final_proje.ui.AddPhotoFragment"
+        android:label="AddPhoto"
+        tools:layout="@layout/fragment_addphoto" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mobil_final_proje.ui.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_addlabel"
+        android:name="com.example.mobil_final_proje.ui.AddLabelFragment"
+        android:label="AddLabel"
+        tools:layout="@layout/fragment_addlabel" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.mobil_final_proje.ui.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
